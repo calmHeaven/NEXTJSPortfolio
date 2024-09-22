@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/components/Projects/Projects.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1727019684510,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727019691222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n // import {SchoolSys} from '../assets/SchoolManagementSystem.png'\n \n const projectDemos = [{\n         title: \"project 1\",\n-        image: <Image src={SchoolSys}  width={402} height={288}/>,\n+        image: <Image src=  width={402} height={288}/>,\n         tech: \"Spring Boot, HTML, CSS, PostgreSQL, Spring Security\"\n       },\n     {\n         title: \"project 2\",\n"
+                }
+            ],
+            "date": 1727019684510,
+            "name": "Commit-0",
+            "content": "import React from 'react';\nimport Image from \"next/image\"\nimport { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';\nimport { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';\nimport { projects } from '../../constants/constants';\n// import {SchoolSys} from '../assets/SchoolManagementSystem.png'\n\nconst projectDemos = [{\n        title: \"project 1\",\n        image: <Image src={SchoolSys}  width={402} height={288}/>,\n        tech: \"Spring Boot, HTML, CSS, PostgreSQL, Spring Security\"\n      },\n    {\n        title: \"project 2\",\n        description: \"This is a really really long description about this project\"\n      },\n    {\n        title: \"project 3\",\n        description: \"This is a really really long description about this project\"\n      },\n    {\n        title: \"project 4\",\n        description: \"This is a really really long description about this project\"\n      }]\n\nconst Projects = () => (\n  <Section nopadding id='projects'>\n    <SectionDivider />\n    <SectionTitle main>Projects</SectionTitle>\n    <GridContainer>\n      {projectDemos.map((project)=>(\n        <div>\n          {project.title}\n          <br/> \n          {project.image}\n          <br/>\n          {project.tech}\n        </div>\n      ))}\n    </GridContainer>\n  </Section>\n);\n\nexport default Projects;"
+        }
+    ]
+}

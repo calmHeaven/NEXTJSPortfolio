@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/components/TimeLine/TimeLine.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1727020014735,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727020023775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,52 @@\n+// import React, { useState, useRef, useEffect } from 'react';\n+\n+// import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';\n+// import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';\n+// import { TimeLineData } from '../../constants/constants';\n+\n+// const TOTAL_CAROUSEL_COUNT = TimeLineData.length;\n+\n+// const Timeline = () => {\n+//   // const [activeItem, setActiveItem] = useState(0);\n+//   // const carouselRef = useRef();\n+\n+//   // const scroll = (node, left) => {\n+//   //   return node.scrollTo({ left, behavior: 'smooth' });\n+//   // }\n+\n+//   // const handleClick = (e, i) => {\n+//   //   e.preventDefault();\n+\n+//   //   if (carouselRef.current) {\n+//   //     const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));\n+      \n+//   //     scroll(carouselRef.current, scrollLeft);\n+//   //   }\n+//   // }\n+\n+//   // const handleScroll = () => {\n+//   //   if (carouselRef.current) {\n+//   //     const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);\n+\n+//   //     setActiveItem(index);\n+//   //   }\n+//   // }\n+\n+//   // // snap back to beginning of scroll when window is resized\n+//   // // avoids a bug where content is covered up if coming from smaller screen\n+//   // useEffect(() => {\n+//   //   const handleResize = () => {\n+//   //     scroll(carouselRef.current, 0);\n+//   //   }\n+\n+//   //   window.addEventListener('resize', handleResize);\n+//   // }, []);\n+\n+//   return (\n+//     <div>\n+//       Timeline\n+//     </div>\n+//   );\n+// };\n+\n+// export default Timeline;\n"
+                }
+            ],
+            "date": 1727020014735,
+            "name": "Commit-0",
+            "content": "import React, { useState, useRef, useEffect } from 'react';\n\nimport { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';\nimport { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';\nimport { TimeLineData } from '../../constants/constants';\n\nconst TOTAL_CAROUSEL_COUNT = TimeLineData.length;\n\nconst Timeline = () => {\n  // const [activeItem, setActiveItem] = useState(0);\n  // const carouselRef = useRef();\n\n  // const scroll = (node, left) => {\n  //   return node.scrollTo({ left, behavior: 'smooth' });\n  // }\n\n  // const handleClick = (e, i) => {\n  //   e.preventDefault();\n\n  //   if (carouselRef.current) {\n  //     const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));\n      \n  //     scroll(carouselRef.current, scrollLeft);\n  //   }\n  // }\n\n  // const handleScroll = () => {\n  //   if (carouselRef.current) {\n  //     const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);\n\n  //     setActiveItem(index);\n  //   }\n  // }\n\n  // // snap back to beginning of scroll when window is resized\n  // // avoids a bug where content is covered up if coming from smaller screen\n  // useEffect(() => {\n  //   const handleResize = () => {\n  //     scroll(carouselRef.current, 0);\n  //   }\n\n  //   window.addEventListener('resize', handleResize);\n  // }, []);\n\n  return (\n    // <div>\n    //   Timeline\n    // </div>\n  );\n};\n\nexport default Timeline;\n"
+        }
+    ]
+}
