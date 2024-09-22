@@ -21,7 +21,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/components/Header/HeaderStyles.js", "src/components/Header/Header.jsx", "src/components/NavDropDown/NavDropDown.js", "src/components/TimeLine/TimeLineStyles.js", "src/components/Technologies/TechnologiesStyles.js", "src/components/Projects/ProjectsStyles.js", "src/components/Hero/HeroStyles.js", "src/components/Acomplishments/AcomplishmentsStyles.js", "src/styles/GlobalComponents/index.jsx", "src/styles/GlobalComponents/Button.jsx"  ],
   "exclude": [
     "node_modules"
   ]

@@ -7,7 +7,7 @@ import { projects } from '../../constants/constants';
 
 const projectDemos = [{
         title: "project 1",
-        image: <Image src=""  width={402} height={288}/>,
+        image: <Image src="" width={402} height={288} alt={''}/>,
         tech: "Spring Boot, HTML, CSS, PostgreSQL, Spring Security"
       },
     {
@@ -24,9 +24,13 @@ const projectDemos = [{
       }]
 
 const Projects = () => (
-  <Section nopadding id='projects'>
+  <Section 
+  // nopadding
+   id='projects'>
     <SectionDivider />
-    <SectionTitle main>Projects</SectionTitle>
+    <SectionTitle
+    //  main
+     >Projects</SectionTitle>
     <GridContainer>
       {projectDemos.map((project)=>(
         <div>

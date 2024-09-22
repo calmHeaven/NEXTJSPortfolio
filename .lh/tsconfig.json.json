@@ -1,0 +1,54 @@
+{
+    "sourceFile": "tsconfig.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1727023616083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727023950498,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   \"include\": [\n     \"next-env.d.ts\",\n     \"**/*.ts\",\n     \"**/*.tsx\"\n-, \"src/components/Header/HeaderStyles.js\"  ],\n+, \"src/components/Header/HeaderStyles.js\", \"src/components/Header/Header.jsx\"  ],\n   \"exclude\": [\n     \"node_modules\"\n   ]\n }\n"
+                },
+                {
+                    "date": 1727024540543,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   \"include\": [\n     \"next-env.d.ts\",\n     \"**/*.ts\",\n     \"**/*.tsx\"\n-, \"src/components/Header/HeaderStyles.js\", \"src/components/Header/Header.jsx\"  ],\n+, \"src/components/Header/HeaderStyles.js\", \"src/components/Header/Header.jsx\", \"src/components/NavDropDown/NavDropDown.js\"  ],\n   \"exclude\": [\n     \"node_modules\"\n   ]\n }\n"
+                },
+                {
+                    "date": 1727024687171,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   \"include\": [\n     \"next-env.d.ts\",\n     \"**/*.ts\",\n     \"**/*.tsx\"\n-, \"src/components/Header/HeaderStyles.js\", \"src/components/Header/Header.jsx\", \"src/components/NavDropDown/NavDropDown.js\"  ],\n+, \"src/components/Header/HeaderStyles.js\", \"src/components/Header/Header.jsx\", \"src/components/NavDropDown/NavDropDown.js\", \"src/components/TimeLine/TimeLineStyles.js\"  ],\n   \"exclude\": [\n     \"node_modules\"\n   ]\n }\n"
+                },
+                {
+                    "date": 1727025078269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   \"include\": [\n     \"next-env.d.ts\",\n     \"**/*.ts\",\n     \"**/*.tsx\"\n-, \"src/components/Header/HeaderStyles.js\", \"src/components/Header/Header.jsx\", \"src/components/NavDropDown/NavDropDown.js\", \"src/components/TimeLine/TimeLineStyles.js\"  ],\n+, \"src/components/Header/HeaderStyles.js\", \"src/components/Header/Header.jsx\", \"src/components/NavDropDown/NavDropDown.js\", \"src/components/TimeLine/TimeLineStyles.js\", \"src/components/Technologies/TechnologiesStyles.js\"  ],\n   \"exclude\": [\n     \"node_modules\"\n   ]\n }\n"
+                },
+                {
+                    "date": 1727025087359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   \"include\": [\n     \"next-env.d.ts\",\n     \"**/*.ts\",\n     \"**/*.tsx\"\n-, \"src/components/Header/HeaderStyles.js\", \"src/components/Header/Header.jsx\", \"src/components/NavDropDown/NavDropDown.js\", \"src/components/TimeLine/TimeLineStyles.js\", \"src/components/Technologies/TechnologiesStyles.js\"  ],\n+, \"src/components/Header/HeaderStyles.js\", \"src/components/Header/Header.jsx\", \"src/components/NavDropDown/NavDropDown.js\", \"src/components/TimeLine/TimeLineStyles.js\", \"src/components/Technologies/TechnologiesStyles.js\", \"src/components/Projects/ProjectsStyles.js\"  ],\n   \"exclude\": [\n     \"node_modules\"\n   ]\n }\n"
+                },
+                {
+                    "date": 1727025096131,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   \"include\": [\n     \"next-env.d.ts\",\n     \"**/*.ts\",\n     \"**/*.tsx\"\n-, \"src/components/Header/HeaderStyles.js\", \"src/components/Header/Header.jsx\", \"src/components/NavDropDown/NavDropDown.js\", \"src/components/TimeLine/TimeLineStyles.js\", \"src/components/Technologies/TechnologiesStyles.js\", \"src/components/Projects/ProjectsStyles.js\"  ],\n+, \"src/components/Header/HeaderStyles.js\", \"src/components/Header/Header.jsx\", \"src/components/NavDropDown/NavDropDown.js\", \"src/components/TimeLine/TimeLineStyles.js\", \"src/components/Technologies/TechnologiesStyles.js\", \"src/components/Projects/ProjectsStyles.js\", \"src/components/Hero/HeroStyles.js\"  ],\n   \"exclude\": [\n     \"node_modules\"\n   ]\n }\n"
+                },
+                {
+                    "date": 1727025108493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   \"include\": [\n     \"next-env.d.ts\",\n     \"**/*.ts\",\n     \"**/*.tsx\"\n-, \"src/components/Header/HeaderStyles.js\", \"src/components/Header/Header.jsx\", \"src/components/NavDropDown/NavDropDown.js\", \"src/components/TimeLine/TimeLineStyles.js\", \"src/components/Technologies/TechnologiesStyles.js\", \"src/components/Projects/ProjectsStyles.js\", \"src/components/Hero/HeroStyles.js\"  ],\n+, \"src/components/Header/HeaderStyles.js\", \"src/components/Header/Header.jsx\", \"src/components/NavDropDown/NavDropDown.js\", \"src/components/TimeLine/TimeLineStyles.js\", \"src/components/Technologies/TechnologiesStyles.js\", \"src/components/Projects/ProjectsStyles.js\", \"src/components/Hero/HeroStyles.js\", \"src/components/Acomplishments/AcomplishmentsStyles.js\"  ],\n   \"exclude\": [\n     \"node_modules\"\n   ]\n }\n"
+                },
+                {
+                    "date": 1727025201223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   \"include\": [\n     \"next-env.d.ts\",\n     \"**/*.ts\",\n     \"**/*.tsx\"\n-, \"src/components/Header/HeaderStyles.js\", \"src/components/Header/Header.jsx\", \"src/components/NavDropDown/NavDropDown.js\", \"src/components/TimeLine/TimeLineStyles.js\", \"src/components/Technologies/TechnologiesStyles.js\", \"src/components/Projects/ProjectsStyles.js\", \"src/components/Hero/HeroStyles.js\", \"src/components/Acomplishments/AcomplishmentsStyles.js\"  ],\n+, \"src/components/Header/HeaderStyles.js\", \"src/components/Header/Header.jsx\", \"src/components/NavDropDown/NavDropDown.js\", \"src/components/TimeLine/TimeLineStyles.js\", \"src/components/Technologies/TechnologiesStyles.js\", \"src/components/Projects/ProjectsStyles.js\", \"src/components/Hero/HeroStyles.js\", \"src/components/Acomplishments/AcomplishmentsStyles.js\", \"src/styles/GlobalComponents/index.jsx\"  ],\n   \"exclude\": [\n     \"node_modules\"\n   ]\n }\n"
+                },
+                {
+                    "date": 1727025210300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   \"include\": [\n     \"next-env.d.ts\",\n     \"**/*.ts\",\n     \"**/*.tsx\"\n-, \"src/components/Header/HeaderStyles.js\", \"src/components/Header/Header.jsx\", \"src/components/NavDropDown/NavDropDown.js\", \"src/components/TimeLine/TimeLineStyles.js\", \"src/components/Technologies/TechnologiesStyles.js\", \"src/components/Projects/ProjectsStyles.js\", \"src/components/Hero/HeroStyles.js\", \"src/components/Acomplishments/AcomplishmentsStyles.js\", \"src/styles/GlobalComponents/index.jsx\"  ],\n+, \"src/components/Header/HeaderStyles.js\", \"src/components/Header/Header.jsx\", \"src/components/NavDropDown/NavDropDown.js\", \"src/components/TimeLine/TimeLineStyles.js\", \"src/components/Technologies/TechnologiesStyles.js\", \"src/components/Projects/ProjectsStyles.js\", \"src/components/Hero/HeroStyles.js\", \"src/components/Acomplishments/AcomplishmentsStyles.js\", \"src/styles/GlobalComponents/index.jsx\", \"src/styles/GlobalComponents/Button.jsx\"  ],\n   \"exclude\": [\n     \"node_modules\"\n   ]\n }\n"
+                }
+            ],
+            "date": 1727023616083,
+            "name": "Commit-0",
+            "content": "{\n  \"compilerOptions\": {\n    \"lib\": [\n      \"dom\",\n      \"dom.iterable\",\n      \"esnext\"\n    ],\n    \"allowJs\": true,\n    \"skipLibCheck\": true,\n    \"strict\": false,\n    \"noEmit\": true,\n    \"incremental\": true,\n    \"module\": \"esnext\",\n    \"esModuleInterop\": true,\n    \"moduleResolution\": \"node\",\n    \"resolveJsonModule\": true,\n    \"isolatedModules\": true,\n    \"jsx\": \"preserve\"\n  },\n  \"include\": [\n    \"next-env.d.ts\",\n    \"**/*.ts\",\n    \"**/*.tsx\"\n, \"src/components/Header/HeaderStyles.js\"  ],\n  \"exclude\": [\n    \"node_modules\"\n  ]\n}\n"
+        }
+    ]
+}

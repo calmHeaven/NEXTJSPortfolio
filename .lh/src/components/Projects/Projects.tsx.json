@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 6,
             "patches": [
                 {
                     "date": 1727019684510,
@@ -12,6 +12,26 @@
                 {
                     "date": 1727019691222,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n // import {SchoolSys} from '../assets/SchoolManagementSystem.png'\n \n const projectDemos = [{\n         title: \"project 1\",\n-        image: <Image src={SchoolSys}  width={402} height={288}/>,\n+        image: <Image src=  width={402} height={288}/>,\n         tech: \"Spring Boot, HTML, CSS, PostgreSQL, Spring Security\"\n       },\n     {\n         title: \"project 2\",\n"
+                },
+                {
+                    "date": 1727024607967,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n // import {SchoolSys} from '../assets/SchoolManagementSystem.png'\n \n const projectDemos = [{\n         title: \"project 1\",\n-        image: <Image src=  width={402} height={288}/>,\n+        image: <Image src=\"\" width={402} height={288} alt={''}/>,\n         tech: \"Spring Boot, HTML, CSS, PostgreSQL, Spring Security\"\n       },\n     {\n         title: \"project 2\",\n"
+                },
+                {
+                    "date": 1727024627250,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,10 @@\n         description: \"This is a really really long description about this project\"\n       }]\n \n const Projects = () => (\n-  <Section nopadding id='projects'>\n+  <Section \n+  nopadding id='projects'>\n     <SectionDivider />\n     <SectionTitle main>Projects</SectionTitle>\n     <GridContainer>\n       {projectDemos.map((project)=>(\n"
+                },
+                {
+                    "date": 1727024635178,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,10 @@\n       }]\n \n const Projects = () => (\n   <Section \n-  nopadding id='projects'>\n+  nopadding\n+   id='projects'>\n     <SectionDivider />\n     <SectionTitle main>Projects</SectionTitle>\n     <GridContainer>\n       {projectDemos.map((project)=>(\n"
+                },
+                {
+                    "date": 1727024641686,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,47 @@\n+import React from 'react';\n+import Image from \"next/image\"\n+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';\n+import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';\n+import { projects } from '../../constants/constants';\n+// import {SchoolSys} from '../assets/SchoolManagementSystem.png'\n+\n+const projectDemos = [{\n+        title: \"project 1\",\n+        image: <Image src=\"\" width={402} height={288} alt={''}/>,\n+        tech: \"Spring Boot, HTML, CSS, PostgreSQL, Spring Security\"\n+      },\n+    {\n+        title: \"project 2\",\n+        description: \"This is a really really long description about this project\"\n+      },\n+    {\n+        title: \"project 3\",\n+        description: \"This is a really really long description about this project\"\n+      },\n+    {\n+        title: \"project 4\",\n+        description: \"This is a really really long description about this project\"\n+      }]\n+\n+const Projects = () => (\n+  <Section \n+  // nopadding\n+   id='projects'>\n+    <SectionDivider />\n+    <SectionTitle\n+     main>Projects</SectionTitle>\n+    <GridContainer>\n+      {projectDemos.map((project)=>(\n+        <div>\n+          {project.title}\n+          <br/> \n+          {project.image}\n+          <br/>\n+          {project.tech}\n+        </div>\n+      ))}\n+    </GridContainer>\n+  </Section>\n+);\n+\n+export default Projects;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727024647173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,48 @@\n+import React from 'react';\n+import Image from \"next/image\"\n+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';\n+import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';\n+import { projects } from '../../constants/constants';\n+// import {SchoolSys} from '../assets/SchoolManagementSystem.png'\n+\n+const projectDemos = [{\n+        title: \"project 1\",\n+        image: <Image src=\"\" width={402} height={288} alt={''}/>,\n+        tech: \"Spring Boot, HTML, CSS, PostgreSQL, Spring Security\"\n+      },\n+    {\n+        title: \"project 2\",\n+        description: \"This is a really really long description about this project\"\n+      },\n+    {\n+        title: \"project 3\",\n+        description: \"This is a really really long description about this project\"\n+      },\n+    {\n+        title: \"project 4\",\n+        description: \"This is a really really long description about this project\"\n+      }]\n+\n+const Projects = () => (\n+  <Section \n+  // nopadding\n+   id='projects'>\n+    <SectionDivider />\n+    <SectionTitle\n+    //  main\n+     >Projects</SectionTitle>\n+    <GridContainer>\n+      {projectDemos.map((project)=>(\n+        <div>\n+          {project.title}\n+          <br/> \n+          {project.image}\n+          <br/>\n+          {project.tech}\n+        </div>\n+      ))}\n+    </GridContainer>\n+  </Section>\n+);\n+\n+export default Projects;\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1727019684510,
