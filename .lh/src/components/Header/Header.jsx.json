@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/components/Header/Header.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1727101616553,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727101625368,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,46 @@\n+import Link from 'next/link';\n+import React from 'react';\n+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';\n+import { DiCssdeck } from 'react-icons/di';\n+\n+import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';\n+\n+const Header = () =>  (\n+    <Container>\n+      <Div1>\n+        <Link legacyBehavior href=\"/\">\n+        <a style={{display: \"flex\", alignItems:\"center\", color:\"white\", marginBottom:\"20px\"}}>\n+          <DiCssdeck size=\"3rem\" /> <Span>Abenezer.</Span>\n+        </a>\n+        </Link>\n+      </Div1>\n+      <Div2>\n+        <li>\n+          <Link href=\"#projects\">\n+            <NavLink>Projects</NavLink>\n+          </Link>\n+        </li>\n+                <li>\n+          <Link href=\"#tech\">\n+            <NavLink>Technologoes</NavLink>\n+          </Link>\n+        </li>\n+                <li>\n+          <Link href=\"#about\">\n+            <NavLink>About</NavLink>\n+          </Link>\n+        </li>\n+      </Div2>\n+      <Div3>\n+        <SocialIcons href=\"https://github.com/calmHeaven\">\n+        <AiFillGithub size=\"3rem\" />  \n+        </SocialIcons>\n+              <SocialIcons href=\"https://linkedin.com/in/agt700\">\n+        <AiFillLinkedin size=\"3rem\" />  \n+        </SocialIcons>\n+      \n+      </Div3>\n+    </Container>\n+);\n+\n+export default Header;\n"
+                }
+            ],
+            "date": 1727101616553,
+            "name": "Commit-0",
+            "content": "import Link from 'next/link';\nimport React from 'react';\nimport { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';\nimport { DiCssdeck } from 'react-icons/di';\n\nimport { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';\n\nconst Header = () =>  (\n    <Container>\n      <Div1>\n        <Link legacyBehavior href=\"/\">\n        <a style={{display: \"flex\", alignItems:\"center\", color:\"white\", marginBottom:\"20px\"}}>\n          <DiCssdeck size=\"3rem\" /> <Span>Abenezer.</Span>\n        </a>\n        </Link>\n      </Div1>\n      <Div2>\n        <li>\n          <Link href=\"#projects\">\n            <NavLink>Projects</NavLink>\n          </Link>\n        </li>\n        br\n                <li>\n          <Link href=\"#tech\">\n            <NavLink>Technologoes</NavLink>\n          </Link>\n        </li>\n                <li>\n          <Link href=\"#about\">\n            <NavLink>About</NavLink>\n          </Link>\n        </li>\n      </Div2>\n      <Div3>\n        <SocialIcons href=\"https://github.com/calmHeaven\">\n        <AiFillGithub size=\"3rem\" />  \n        </SocialIcons>\n              <SocialIcons href=\"https://linkedin.com/in/agt700\">\n        <AiFillLinkedin size=\"3rem\" />  \n        </SocialIcons>\n      \n      </Div3>\n    </Container>\n);\n\nexport default Header;\n"
+        }
+    ]
+}
