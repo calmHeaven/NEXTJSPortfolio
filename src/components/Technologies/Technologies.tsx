@@ -12,7 +12,7 @@ const Technologies = () => (
     <SectionText>
       I've worked with various cutting age technologies in the web development
       industries. I especially love working with Spring in the Backend. Although
-      I've grown to love the Frontend of the Stack
+      I've grown to love the Frontend of the Stack.
     </SectionText>
     <List>
       <ListItem>

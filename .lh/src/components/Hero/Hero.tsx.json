@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 27,
+            "activePatchIndex": 28,
             "patches": [
                 {
                     "date": 1727019527239,
@@ -116,6 +116,10 @@
                 {
                     "date": 1727095122679,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n         Welcome to <br />\n         My Personal Portfolio\n       </SectionTitle>\n       <SectionText>\n-        I'm a CS student with a concentration in backend engineering. I have experience working with startup companies in which I've been engaged with analysis and customer requirements. I'm also passionate about learning new technologies and engineering software that can solve real-world problems.\n+        I'm a CS student with a concentration in backend engineering. I have experience working with startup companies in which I've been engaged with analysisof customer requirements. I'm also passionate about learning new technologies and engineering software that can solve real-world problems.\n       </SectionText>\n       <Button \n       onClick={()=>window.location = 'https:www.linkedin.com/in/agt700'}\n       >Learn More</Button>\n"
+                },
+                {
+                    "date": 1727191793540,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n         Welcome to <br />\n         My Personal Portfolio\n       </SectionTitle>\n       <SectionText>\n-        I'm a CS student with a concentration in backend engineering. I have experience working with startup companies in which I've been engaged with analysisof customer requirements. I'm also passionate about learning new technologies and engineering software that can solve real-world problems.\n+        I'm a CS student with a concentration in backend engineering. I have experience working with startup companies in which I've been engaged with analysis of customer requirements. I'm also passionate about learning new technologies and engineering software that can solve real-world problems.\n       </SectionText>\n       <Button \n       onClick={()=>window.location = 'https:www.linkedin.com/in/agt700'}\n       >Learn More</Button>\n"
                 }
             ],
             "date": 1727019527239,
