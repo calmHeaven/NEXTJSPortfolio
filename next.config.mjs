@@ -4,5 +4,9 @@ const nextConfig = {
   }
 }
 
- 
+ module.exports = {
+   options: {
+     dist: '.next'
+   }
+ }
 export default nextConfig
