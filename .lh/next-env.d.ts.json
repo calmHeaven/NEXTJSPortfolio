@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1727212852151,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727225868357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-// <reference types=\"next\" />\r\n-// <reference types=\"next/image-types/global\" />\r\n+/// <reference types=\"next\" />\r\n+/// <reference types=\"next/image-types/global\" />\r\n \r\n // NOTE: This file should not be edited\r\n // see https://nextjs.org/docs/pages/building-your-application/configuring/typescript for more information.\r\n"
                 }
             ],
             "date": 1727212852151,

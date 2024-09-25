@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 6,
+            "activePatchIndex": 7,
             "patches": [
                 {
                     "date": 1727019634698,
@@ -32,6 +32,10 @@
                 {
                     "date": 1727042864082,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,11 +10,9 @@\n \n const Home = () => {\n   return (\n     <Layout>\n-      <Section \n-      grid\n-      >\n+      <Section grid>\n         <Hero />\n         <BgAnimation />\n       </Section>\n       <Projects />\n"
+                },
+                {
+                    "date": 1727228097506,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import React from 'react';\n+2import React from 'react';\n import Acomplishments from '../components/Acomplishments/Acomplishments';\n import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';\n import Hero from '../components/Hero/Hero';\n import Projects from '../components/Projects/Projects';\n"
                 }
             ],
             "date": 1727019634698,

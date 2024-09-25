@@ -1,28 +1,28 @@
-{
-  "compilerOptions": {
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": false,
-    "noEmit": true,
-    "incremental": true,
-    "module": "esnext",
-    "esModuleInterop": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve"
-  },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-, "src/components/Header/HeaderStyles.js", "src/components/Header/Header.jsx", "src/components/NavDropDown/NavDropDown.js", "src/components/TimeLine/TimeLineStyles.js", "src/components/Technologies/TechnologiesStyles.js", "src/components/Projects/ProjectsStyles.js", "src/components/Hero/HeroStyles.js", "src/components/Acomplishments/AcomplishmentsStyles.js", "src/styles/GlobalComponents/index.jsx", "src/styles/GlobalComponents/Button.jsx", "src/components/TimeLine/TimeLine.tsx", "next.config.mts", "src/components/Cards/Card.tsx"  ],
-  "exclude": [
-    "node_modules"
-  ]
-}
+// {
+//   "compilerOptions": {
+//     "lib": [
+//       "dom",
+//       "dom.iterable",
+//       "esnext"
+//     ],
+//     "allowJs": true,
+//     "skipLibCheck": true,
+//     "strict": false,
+//     "noEmit": true,
+//     "incremental": true,
+//     "module": "esnext",
+//     "esModuleInterop": true,
+//     "moduleResolution": "node",
+//     "resolveJsonModule": true,
+//     "isolatedModules": true,
+//     "jsx": "preserve"
+//   },
+//   "include": [
+//     "next-env.d.js",
+//     "**/*.ts",
+//     "**/*.tsx"
+// , "src/components/Header/HeaderStyles.js", "src/components/Header/Header.js", "src/components/NavDropDown/NavDropDown.js", "src/components/TimeLine/TimeLineStyles.js", "src/components/Technologies/TechnologiesStyles.js", "src/components/Projects/ProjectsStyles.js", "src/components/Hero/HeroStyles.js", "src/components/Acomplishments/AcomplishmentsStyles.js", "src/styles/GlobalComponents/index.jsx", "src/styles/GlobalComponents/Button.jsx", "src/components/TimeLine/TimeLine.js", "next.config.mts", "src/components/Cards/Card.tsx", "src/constants/constants.js", "src/layout/Layout.js", "src/layout/LayoutStyles.js", "src/components/Technologies/Technologies.jsx", "src/components/Projects/Projects.js", "src/components/Projects/ProjectStyles.js", "src/components/NavDropDown/index.js", "src/components/Hero/Hero.js", "src/components/Footer/Footer.js", "src/components/Acomplishments/Acomplishments.js", "src/components/BackgrooundAnimation/BackgroundAnimation.js"  ],
+//   "exclude": [
+//     "node_modules"
+//   ]
+// }
