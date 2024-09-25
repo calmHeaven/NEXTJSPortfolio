@@ -64,7 +64,7 @@ const Timeline = () => {
       <SectionTitle>About me</SectionTitle>
       <SectionText>
         I'm Junior Computer Science student at the University of Winnipeg with a
-        passion to learn tech and solve problems in
+        hunger to learn and become better than I was the previous day.
       </SectionText>
 
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
@@ -82,6 +82,8 @@ const Timeline = () => {
               >
                 <CarouselItemTitle>
                   {item.year}
+                  <br />
+                  {item.month}
                   <CarouselItemImg
                     width="208"
                     height="6"
@@ -122,20 +124,19 @@ const Timeline = () => {
         </>
       </CarouselContainer>
       <CarouselButtons>
-        {TimeLineData.map((item, index)=>(
-      <CarouselButton
-          key={index}
-          index={index}
-          active={activeItem}
-          onClick={(e)=>handleClick(e,index)}
-          type="button"
-      >
-
-        <CarouselButtonDot active={activeItem}/>
-              </CarouselButton>
+        {TimeLineData.map((item, index) => (
+          <CarouselButton
+            key={index}
+            index={index}
+            active={activeItem}
+            onClick={(e) => handleClick(e, index)}
+            type="button"
+          >
+            <CarouselButtonDot active={activeItem} />
+          </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider/>
+      <SectionDivider />
     </Section>
   );
 };

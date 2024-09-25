@@ -1,0 +1,42 @@
+{
+    "sourceFile": "next.config.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1727213088353,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727213094946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+\r\n+images: {\r\n+    unoptimized: true,\r\n+  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727213114214,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+\r\n+images: {\r\n+    unoptimized: true,\r\n+  };\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727213121081,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+\r\n+images: {\r\n+    true,\r\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727213193607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,6 @@\n+/** @type {import('next').NextConfig} */\r\n+const nextConfig = {\r\n+      reactStrictMode: true,\r\n+}\r\n \r\n-images: {\r\n-    true,\r\n-  \n-\r\n-images: {\r\n-    unoptimized: true,\r\n-  };\n-\r\n-images: {\r\n-    unoptimized: true,\r\n\\ No newline at end of file\n-  }\n-images: {\r\n-    unoptimized: true,\r\n-  },\n+module.exports = nextConfig\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727213244644,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,11 @@\n-/** @type {import('next').NextConfig} */\r\n-const nextConfig = {\r\n-      reactStrictMode: true,\r\n-}\r\n-\r\n-module.exports = nextConfig\n\\ No newline at end of file\n+// @ts-check\r\n+ \r\n+export default (phase, { defaultConfig }) => {\r\n+  /**\r\n+   * @type {import('next').NextConfig}\r\n+   */\r\n+  const nextConfig = {\r\n+    /* config options here */\r\n+  }\r\n+  return nextConfig\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727213251801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,6 @@\n    */\r\n   const nextConfig = {\r\n     /* config options here */\r\n   }\r\n-  retur\n\\ No newline at end of file\n+  return nextConfig\r\n+}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1727213088353,
+            "name": "Commit-0",
+            "content": "images: {\r\n    unoptimized: true,\r\n  },"
+        }
+    ]
+}

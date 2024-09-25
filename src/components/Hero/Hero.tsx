@@ -17,11 +17,8 @@ const Hero = (props: any) => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        I'm a CS student with a concentration in backend engineering. I have
-        experience working with startup companies in which I've been engaged
-        with analysis of customer requirements. I'm also passionate about
-        learning new technologies and engineering software that can solve
-        real-world problems.
+        I'm a backend engineer with experience working at startup companies and developing software in which I've been engaged
+        in the analysis of customer requirements and deployment of well crafted solutions. I'm also passionate about learning  and engineering  that can solve real-world problems and bring value.
       </SectionText>
       <Button
         onClick={() => (window.location = "https:www.linkedin.com/in/agt700")}

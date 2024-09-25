@@ -1,48 +1,33 @@
+
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '../public/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
+    title: ' Full Stack School Management System',
+    description: "This is a Spring Boot project for managing school-related tasks such as student registration and management. The system allows users to register students, view student details, update student information, and delete student records. Additionally, the project includes features for teacher management.",
+      image: "../assets/image.png",
+      tags: ['SpringBoot', ', Java', ', JavaScript',',HTML', ',Bootstrap CSS'],
+    source: 'https://github.com/calmHeaven/SpringBootSchoolManagementSystem',
     visit: 'https://google.com',
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 1,
-  },
-  {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+    title: ' Automated SMS Motivator',
+    description: "Spring Boot program using the Twilio API to send motivational SMS messages whenever I procrastinate.",
       image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 2,
-  },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
+      tags: ['Spring Boot', 'Twilio API','Thymeleaf'],
+    source: 'https://github.com/calmHeaven/-Automated-SMS-Motivator-',
+    // visit: 'https://google.com',
+    id: 1,
   },
 ];
 
+const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  {month:months[7], year: 2022, text: 'Graduated High School\nStarted University', },
+  {month:months[11-1], year: 2023, text: 'Developed deep understanding of DSA', },
+  {month:months[1-1], year: 2024, text: 'Built My First Web app', },
+  {month:months[4-1], year: 2024, text: 'Built My First Full Stack Application', },
+  {month:months[9-1], year: 2024, text: 'Began Evolving in my skills as a developer and a mentor.', },
 ];
 
 export const data = [
