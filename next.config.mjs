@@ -1,12 +1,4 @@
-// const nextConfig = {
-//   images:{
-//     unoptimized: true,
-//   }
-// }
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
 
-//  module.exports = {
-//    options: {
-//      dist: '.next'
-//    }
-//  }
-// export default nextConfig
+export default nextConfig;
