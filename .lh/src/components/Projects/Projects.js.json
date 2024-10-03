@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/components/Projects/Projects.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1727921126603,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1727921126603,
+            "name": "Commit-0",
+            "content": "import React from 'react';\r\nimport { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';\r\nimport { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';\r\nimport { projects } from '../../constants/constants';\r\n\r\n\r\nconst Projects = () => (\r\n  <Section  nopadding\r\n   id='projects'>\r\n    <SectionDivider />\r\n    <SectionTitle main>\r\n      Projects</SectionTitle>\r\n    <GridContainer>\r\n      {projects.map(({id,image, title, description, tags, source, visit})=>(\r\n        <BlogCard key={id}>\r\n          <Img src={('project.image')}/>\r\n          <TitleContent>\r\n            <HeaderThree title>\r\n              {title}\r\n            </HeaderThree>\r\n            <Hr/>\r\n            <CardInfo>\r\n              {description}\r\n            </CardInfo>\r\n          </TitleContent>\r\n          <div>\r\n            <TitleContent>Stack</TitleContent>\r\n            <TagList>\r\n              {tags.map((tag, i) => (\r\n                <Tag key = {i}>{tag}</Tag>\r\n              ))}\r\n            </TagList>\r\n          </div>\r\n          <UtilityList>\r\n\r\n            <ExternalLinks href={source}>Source</ExternalLinks>\r\n          </UtilityList>\r\n        </BlogCard>\r\n      ))}\r\n    </GridContainer>\r\n  </Section>\r\n);\r\n\r\nexport default Projects;"
+        }
+    ]
+}
