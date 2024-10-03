@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/constants/constants.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1727921101529,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1727921101529,
+            "name": "Commit-0",
+            "content": "\nexport const projects = [\n  {\n    title: ' Full Stack School Management System',\n    description: \"This is a Spring Boot project for managing school-related tasks such as student registration and management. The system allows users to register students, view student details, update student information, and delete student records. Additionally, the project includes features for teacher management.\",\n      image: \"../assets/image.png\",\n      tags: ['SpringBoot', ', Java', ', JavaScript',',HTML', ',Bootstrap CSS'],\n    source: 'https://github.com/calmHeaven/SpringBootSchoolManagementSystem',\n    // visit: 'https://google.com',\n    id: 0,\n  },\n  {\n    title: ' Automated SMS Motivator',\n    description: \"Spring Boot program using the Twilio API to send motivational SMS messages whenever I procrastinate.\",\n      image: '/images/3.jpg',\n      tags: ['Spring Boot', 'Twilio API','Thymeleaf'],\n    source: 'https://github.com/calmHeaven/-Automated-SMS-Motivator-',\n    // visit: 'https://google.com',\n    id: 1,\n  },\n];\n\nconst months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']\n\nexport const TimeLineData = [\n  {month:months[7], year: 2022, text: 'Graduated High School\\nStarted University', },\n  {month:months[11-1], year: 2023, text: 'Developed deep understanding of DSA', },\n  {month:months[1-1], year: 2024, text: 'Built My First Web app', },\n  {months:months[6-1], year:2024, text:'Software Development Intern at PolySense Solutions'},\n  {month:months[4-1], year: 2024, text: 'Built My First Full Stack Application', },\n  {month:months[9-1], year: 2024, text: 'Began Evolving in my skills as a developer and a mentor.', },\n];\n\nexport const data = [\n  { number: 20, text: 'Open Source Projects'},\n  { number: 1000, text: 'Students', },\n  { number: 1900, text: 'Github Followers', },\n  { number: 5000, text: 'Github Stars', }\n];"
+        }
+    ]
+}

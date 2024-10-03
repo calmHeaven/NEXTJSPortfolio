@@ -6,7 +6,7 @@ export const projects = [
       image: "../assets/image.png",
       tags: ['SpringBoot', ', Java', ', JavaScript',',HTML', ',Bootstrap CSS'],
     source: 'https://github.com/calmHeaven/SpringBootSchoolManagementSystem',
-    visit: 'https://google.com',
+    // visit: 'https://google.com',
     id: 0,
   },
   {
@@ -26,6 +26,7 @@ export const TimeLineData = [
   {month:months[7], year: 2022, text: 'Graduated High School\nStarted University', },
   {month:months[11-1], year: 2023, text: 'Developed deep understanding of DSA', },
   {month:months[1-1], year: 2024, text: 'Built My First Web app', },
+  {months:months[6-1], year:2024, text:'Software Development Intern at PolySense Solutions'},
   {month:months[4-1], year: 2024, text: 'Built My First Full Stack Application', },
   {month:months[9-1], year: 2024, text: 'Began Evolving in my skills as a developer and a mentor.', },
 ];
