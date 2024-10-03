@@ -12,7 +12,7 @@ export const projects = [
   {
     title: ' Automated SMS Motivator',
     description: "Spring Boot program using the Twilio API to send motivational SMS messages whenever I procrastinate.",
-      image: '/images/3.jpg',
+      image: '../../public/images/3.jpg',
       tags: ['Spring Boot', 'Twilio API','Thymeleaf'],
     source: 'https://github.com/calmHeaven/-Automated-SMS-Motivator-',
     // visit: 'https://google.com',

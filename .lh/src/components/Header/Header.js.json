@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/components/Header/Header.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1727921304676,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727921317014,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <Container>\n       <Div1>\n         <Link legacyBehavior href=\"/\">\n         <a style={{display: \"flex\", alignItems:\"center\", color:\"white\", marginBottom:\"20px\"}}>\n-          <DiCssdeck size=\"3rem\" />\n+          <SiSololearn  size=\"3rem\" />\n            <Span>Abenezer.</Span>\n         </a>\n         </Link>\n       </Div1>\n"
+                },
+                {
+                    "date": 1727922331950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n       <Div3>\n         <SocialIcons href=\"https://github.com/calmHeaven\">\n         <AiFillGithub size=\"3rem\" />  \n         </SocialIcons>\n-              <SocialIcons href=\"https://www.linkedin.com/in/agt700\">\n+              <SocialIcons href=\"www.linkedin.com/in/agt700\">\n         <AiFillLinkedin size=\"3rem\" />  \n         </SocialIcons>\n       \n       </Div3>\n"
+                },
+                {
+                    "date": 1727922337235,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <Container>\n       <Div1>\n         <Link legacyBehavior href=\"/\">\n         <a style={{display: \"flex\", alignItems:\"center\", color:\"white\", marginBottom:\"20px\"}}>\n-          <SiSololearn  size=\"3rem\" />\n+          <DiCssdeck size=\"3rem\" />\n            <Span>Abenezer.</Span>\n         </a>\n         </Link>\n       </Div1>\n@@ -36,9 +36,9 @@\n       <Div3>\n         <SocialIcons href=\"https://github.com/calmHeaven\">\n         <AiFillGithub size=\"3rem\" />  \n         </SocialIcons>\n-              <SocialIcons href=\"www.linkedin.com/in/agt700\">\n+              <SocialIcons href=\"https://www.linkedin.com/in/agt700\">\n         <AiFillLinkedin size=\"3rem\" />  \n         </SocialIcons>\n       \n       </Div3>\n"
+                }
+            ],
+            "date": 1727921304676,
+            "name": "Commit-0",
+            "content": "import Link from 'next/link';\nimport React from 'react';\nimport { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';\nimport { SiSololearn } from \"react-icons/si\";\n\n\nimport { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';\n\nconst Header = () =>  (\n    <Container>\n      <Div1>\n        <Link legacyBehavior href=\"/\">\n        <a style={{display: \"flex\", alignItems:\"center\", color:\"white\", marginBottom:\"20px\"}}>\n          <DiCssdeck size=\"3rem\" />\n           <Span>Abenezer.</Span>\n        </a>\n        </Link>\n      </Div1>\n      <Div2>\n        <li>\n          <Link href=\"#projects\">\n            <NavLink>Projects</NavLink>\n          </Link>\n        </li>\n                <li>\n          <Link href=\"#tech\">\n            <NavLink>Technologies</NavLink>\n          </Link>\n        </li>\n                <li>\n          <Link href=\"#about\">\n            <NavLink>About</NavLink>\n          </Link>\n        </li>\n      </Div2>\n      <Div3>\n        <SocialIcons href=\"https://github.com/calmHeaven\">\n        <AiFillGithub size=\"3rem\" />  \n        </SocialIcons>\n              <SocialIcons href=\"https://www.linkedin.com/in/agt700\">\n        <AiFillLinkedin size=\"3rem\" />  \n        </SocialIcons>\n      \n      </Div3>\n    </Container>\n);\n\nexport default Header;\n"
+        }
+    ]
+}
