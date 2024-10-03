@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 27,
             "patches": [
                 {
                     "date": 1727921304676,
@@ -20,6 +20,102 @@
                 {
                     "date": 1727922337235,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <Container>\n       <Div1>\n         <Link legacyBehavior href=\"/\">\n         <a style={{display: \"flex\", alignItems:\"center\", color:\"white\", marginBottom:\"20px\"}}>\n-          <SiSololearn  size=\"3rem\" />\n+          <DiCssdeck size=\"3rem\" />\n            <Span>Abenezer.</Span>\n         </a>\n         </Link>\n       </Div1>\n@@ -36,9 +36,9 @@\n       <Div3>\n         <SocialIcons href=\"https://github.com/calmHeaven\">\n         <AiFillGithub size=\"3rem\" />  \n         </SocialIcons>\n-              <SocialIcons href=\"www.linkedin.com/in/agt700\">\n+              <SocialIcons href=\"https://www.linkedin.com/in/agt700\">\n         <AiFillLinkedin size=\"3rem\" />  \n         </SocialIcons>\n       \n       </Div3>\n"
+                },
+                {
+                    "date": 1727928982708,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <Container>\n       <Div1>\n         <Link legacyBehavior href=\"/\">\n         <a style={{display: \"flex\", alignItems:\"center\", color:\"white\", marginBottom:\"20px\"}}>\n-          <DiCssdeck size=\"3rem\" />\n+          <SiSololearn size=\"3rem\" />\n            <Span>Abenezer.</Span>\n         </a>\n         </Link>\n       </Div1>\n@@ -36,9 +36,9 @@\n       <Div3>\n         <SocialIcons href=\"https://github.com/calmHeaven\">\n         <AiFillGithub size=\"3rem\" />  \n         </SocialIcons>\n-              <SocialIcons href=\"https://www.linkedin.com/in/agt700\">\n+              <SocialIcons href=\"www.linkedin.com/in/agt700\">\n         <AiFillLinkedin size=\"3rem\" />  \n         </SocialIcons>\n       \n       </Div3>\n"
+                },
+                {
+                    "date": 1727928990053,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n       <Div1>\n         <Link legacyBehavior href=\"/\">\n         <a style={{display: \"flex\", alignItems:\"center\", color:\"white\", marginBottom:\"20px\"}}>\n           <SiSololearn size=\"3rem\" />\n+          br\n            <Span>Abenezer.</Span>\n         </a>\n         </Link>\n       </Div1>\n"
+                },
+                {
+                    "date": 1727928995804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n       <Div1>\n         <Link legacyBehavior href=\"/\">\n         <a style={{display: \"flex\", alignItems:\"center\", color:\"white\", marginBottom:\"20px\"}}>\n           <SiSololearn size=\"3rem\" />\n-          br\n+          <br/>\n            <Span>Abenezer.</Span>\n         </a>\n         </Link>\n       </Div1>\n"
+                },
+                {
+                    "date": 1727929008052,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n         <Link legacyBehavior href=\"/\">\n         <a style={{display: \"flex\", alignItems:\"center\", color:\"white\", marginBottom:\"20px\"}}>\n           <SiSololearn size=\"3rem\" />\n           <br/>\n-           <Span>Abenezer.</Span>\n+           <Span>   Abenezer.</Span>\n         </a>\n         </Link>\n       </Div1>\n       <Div2>\n"
+                },
+                {
+                    "date": 1727929015480,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,20 +1,18 @@\n import Link from 'next/link';\n import React from 'react';\n import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';\n-import { SiSololearn } from \"react-icons/si\";\n+import { DiCssdeck } from 'react-icons/di';\n \n-\n import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';\n \n const Header = () =>  (\n     <Container>\n       <Div1>\n         <Link legacyBehavior href=\"/\">\n         <a style={{display: \"flex\", alignItems:\"center\", color:\"white\", marginBottom:\"20px\"}}>\n-          <SiSololearn size=\"3rem\" />\n-          <br/>\n-           <Span>   Abenezer.</Span>\n+          <DiCssdeck size=\"3rem\" />\n+           <Span>Abenezer.</Span>\n         </a>\n         </Link>\n       </Div1>\n       <Div2>\n@@ -37,9 +35,9 @@\n       <Div3>\n         <SocialIcons href=\"https://github.com/calmHeaven\">\n         <AiFillGithub size=\"3rem\" />  \n         </SocialIcons>\n-              <SocialIcons href=\"www.linkedin.com/in/agt700\">\n+              <SocialIcons href=\"https://www.linkedin.com/in/agt700\">\n         <AiFillLinkedin size=\"3rem\" />  \n         </SocialIcons>\n       \n       </Div3>\n"
+                },
+                {
+                    "date": 1727929024468,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,20 @@\n import Link from 'next/link';\n import React from 'react';\n import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';\n-import { DiCssdeck } from 'react-icons/di';\n+import { SiSololearn } from \"react-icons/si\";\n \n+\n import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';\n \n const Header = () =>  (\n     <Container>\n       <Div1>\n         <Link legacyBehavior href=\"/\">\n         <a style={{display: \"flex\", alignItems:\"center\", color:\"white\", marginBottom:\"20px\"}}>\n-          <DiCssdeck size=\"3rem\" />\n-           <Span>Abenezer.</Span>\n+          <SiSololearn size=\"3rem\" />\n+          <br/>\n+           <Span>   Abenezer.</Span>\n         </a>\n         </Link>\n       </Div1>\n       <Div2>\n@@ -35,9 +37,9 @@\n       <Div3>\n         <SocialIcons href=\"https://github.com/calmHeaven\">\n         <AiFillGithub size=\"3rem\" />  \n         </SocialIcons>\n-              <SocialIcons href=\"https://www.linkedin.com/in/agt700\">\n+              <SocialIcons href=\"www.linkedin.com/in/agt700\">\n         <AiFillLinkedin size=\"3rem\" />  \n         </SocialIcons>\n       \n       </Div3>\n"
+                },
+                {
+                    "date": 1727929041479,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,11 +10,11 @@\n     <Container>\n       <Div1>\n         <Link legacyBehavior href=\"/\">\n         <a style={{display: \"flex\", alignItems:\"center\", color:\"white\", marginBottom:\"20px\"}}>\n-          <SiSololearn size=\"3rem\" />\n+          <SiSololearn size=\"2.5rem\" style/>\n           <br/>\n-           <Span>   Abenezer.</Span>\n+           <Span>Abenezer.</Span>\n         </a>\n         </Link>\n       </Div1>\n       <Div2>\n"
+                },
+                {
+                    "date": 1727929047838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <Container>\n       <Div1>\n         <Link legacyBehavior href=\"/\">\n         <a style={{display: \"flex\", alignItems:\"center\", color:\"white\", marginBottom:\"20px\"}}>\n-          <SiSololearn size=\"2.5rem\" style/>\n+          <SiSololearn size=\"2.5rem\" sty{{}}/>\n           <br/>\n            <Span>Abenezer.</Span>\n         </a>\n         </Link>\n"
+                },
+                {
+                    "date": 1727929059089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <Container>\n       <Div1>\n         <Link legacyBehavior href=\"/\">\n         <a style={{display: \"flex\", alignItems:\"center\", color:\"white\", marginBottom:\"20px\"}}>\n-          <SiSololearn size=\"2.5rem\" sty{{}}/>\n+          <SiSololearn size=\"2.5rem\" style={{display}}/>\n           <br/>\n            <Span>Abenezer.</Span>\n         </a>\n         </Link>\n"
+                },
+                {
+                    "date": 1727929071360,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,11 @@\n     <Container>\n       <Div1>\n         <Link legacyBehavior href=\"/\">\n         <a style={{display: \"flex\", alignItems:\"center\", color:\"white\", marginBottom:\"20px\"}}>\n-          <SiSololearn size=\"2.5rem\" style={{display}}/>\n+          <SiSololearn size=\"2.5rem\" style={{display:'flex'\n+            \n+          }}/>\n           <br/>\n            <Span>Abenezer.</Span>\n         </a>\n         </Link>\n"
+                },
+                {
+                    "date": 1727929080795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,10 +10,10 @@\n     <Container>\n       <Div1>\n         <Link legacyBehavior href=\"/\">\n         <a style={{display: \"flex\", alignItems:\"center\", color:\"white\", marginBottom:\"20px\"}}>\n-          <SiSololearn size=\"2.5rem\" style={{display:'flex'\n-            \n+          <SiSololearn size=\"2.5rem\" style={{display:'flex',\n+            marginRight\n           }}/>\n           <br/>\n            <Span>Abenezer.</Span>\n         </a>\n"
+                },
+                {
+                    "date": 1727929086152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n       <Div1>\n         <Link legacyBehavior href=\"/\">\n         <a style={{display: \"flex\", alignItems:\"center\", color:\"white\", marginBottom:\"20px\"}}>\n           <SiSololearn size=\"2.5rem\" style={{display:'flex',\n-            marginRight\n+            marginRight:''\n           }}/>\n           <br/>\n            <Span>Abenezer.</Span>\n         </a>\n"
+                },
+                {
+                    "date": 1727929092433,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n       <Div1>\n         <Link legacyBehavior href=\"/\">\n         <a style={{display: \"flex\", alignItems:\"center\", color:\"white\", marginBottom:\"20px\"}}>\n           <SiSololearn size=\"2.5rem\" style={{display:'flex',\n-            marginRight:''\n+            marginRight:'44px'\n           }}/>\n           <br/>\n            <Span>Abenezer.</Span>\n         </a>\n"
+                },
+                {
+                    "date": 1727929098179,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n       <Div1>\n         <Link legacyBehavior href=\"/\">\n         <a style={{display: \"flex\", alignItems:\"center\", color:\"white\", marginBottom:\"20px\"}}>\n           <SiSololearn size=\"2.5rem\" style={{display:'flex',\n-            marginRight:'44px'\n+            marginRight:'24px'\n           }}/>\n           <br/>\n            <Span>Abenezer.</Span>\n         </a>\n"
+                },
+                {
+                    "date": 1727929104645,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n       <Div1>\n         <Link legacyBehavior href=\"/\">\n         <a style={{display: \"flex\", alignItems:\"center\", color:\"white\", marginBottom:\"20px\"}}>\n           <SiSololearn size=\"2.5rem\" style={{display:'flex',\n-            marginRight:'24px'\n+            marginRight:'14px'\n           }}/>\n           <br/>\n            <Span>Abenezer.</Span>\n         </a>\n"
+                },
+                {
+                    "date": 1727929111526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n           <SiSololearn size=\"2.5rem\" style={{display:'flex',\n             marginRight:'14px'\n           }}/>\n           <br/>\n-           <Span>Abenezer.</Span>\n+           <Span aria-setsize={}>Abenezer.</Span>\n         </a>\n         </Link>\n       </Div1>\n       <Div2>\n"
+                },
+                {
+                    "date": 1727929117967,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n           <SiSololearn size=\"2.5rem\" style={{display:'flex',\n             marginRight:'14px'\n           }}/>\n           <br/>\n-           <Span aria-setsize={}>Abenezer.</Span>\n+           <Span size>Abenezer.</Span>\n         </a>\n         </Link>\n       </Div1>\n       <Div2>\n"
+                },
+                {
+                    "date": 1727929129580,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n           <SiSololearn size=\"2.5rem\" style={{display:'flex',\n             marginRight:'14px'\n           }}/>\n           <br/>\n-           <Span size>Abenezer.</Span>\n+           <Span size=\"3rem\">Abenezer.</Span>\n         </a>\n         </Link>\n       </Div1>\n       <Div2>\n"
+                },
+                {
+                    "date": 1727929142530,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n           <SiSololearn size=\"2.5rem\" style={{display:'flex',\n             marginRight:'14px'\n           }}/>\n           <br/>\n-           <Span size=\"3rem\">Abenezer.</Span>\n+           <Span style={}>Abenezer.</Span>\n         </a>\n         </Link>\n       </Div1>\n       <Div2>\n"
+                },
+                {
+                    "date": 1727929148505,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n           <SiSololearn size=\"2.5rem\" style={{display:'flex',\n             marginRight:'14px'\n           }}/>\n           <br/>\n-           <Span style={}>Abenezer.</Span>\n+           <Span style={{size}}>Abenezer.</Span>\n         </a>\n         </Link>\n       </Div1>\n       <Div2>\n"
+                },
+                {
+                    "date": 1727929158045,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n           <SiSololearn size=\"2.5rem\" style={{display:'flex',\n             marginRight:'14px'\n           }}/>\n           <br/>\n-           <Span style={{size}}>Abenezer.</Span>\n+           <Span style={{font}}>Abenezer.</Span>\n         </a>\n         </Link>\n       </Div1>\n       <Div2>\n"
+                },
+                {
+                    "date": 1727929163925,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n           <SiSololearn size=\"2.5rem\" style={{display:'flex',\n             marginRight:'14px'\n           }}/>\n           <br/>\n-           <Span style={{font}}>Abenezer.</Span>\n+           <Span style={{fontSize=\"3rem\"}}>Abenezer.</Span>\n         </a>\n         </Link>\n       </Div1>\n       <Div2>\n"
+                },
+                {
+                    "date": 1727929184038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n           <SiSololearn size=\"2.5rem\" style={{display:'flex',\n             marginRight:'14px'\n           }}/>\n           <br/>\n-           <Span style={{fontSize=\"3rem\"}}>Abenezer.</Span>\n+           <Span style={{fontSize:\"3rem\"}}>Abenezer.</Span>\n         </a>\n         </Link>\n       </Div1>\n       <Div2>\n"
+                },
+                {
+                    "date": 1727929191668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n           <SiSololearn size=\"2.5rem\" style={{display:'flex',\n             marginRight:'14px'\n           }}/>\n           <br/>\n-           <Span style={{fontSize:\"3rem\"}}>Abenezer.</Span>\n+           <Span style={{fontSize:\"2.7rem\"}}>Abenezer.</Span>\n         </a>\n         </Link>\n       </Div1>\n       <Div2>\n"
                 }
             ],
             "date": 1727921304676,

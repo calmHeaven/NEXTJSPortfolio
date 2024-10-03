@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1727921126603,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727929864809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import React from 'react';\r\n import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';\r\n import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';\r\n-import { projects } from '../../constants/constants';\r\n \r\n \r\n+\r\n const Projects = () => (\r\n   <Section  nopadding\r\n    id='projects'>\r\n     <SectionDivider />\r\n@@ -31,9 +31,8 @@\n               ))}\r\n             </TagList>\r\n           </div>\r\n           <UtilityList>\r\n-\r\n             <ExternalLinks href={source}>Source</ExternalLinks>\r\n           </UtilityList>\r\n         </BlogCard>\r\n       ))}\r\n"
                 }
             ],
             "date": 1727921126603,

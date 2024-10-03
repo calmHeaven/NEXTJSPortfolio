@@ -11,8 +11,11 @@ const Header = () =>  (
       <Div1>
         <Link legacyBehavior href="/">
         <a style={{display: "flex", alignItems:"center", color:"white", marginBottom:"20px"}}>
-          <SiSololearn  size="3rem" />
-           <Span>Abenezer.</Span>
+          <SiSololearn size="2.5rem" style={{display:'flex',
+            marginRight:'14px'
+          }}/>
+          <br/>
+           <Span style={{fontSize:"2.7rem"}}>Abenezer.</Span>
         </a>
         </Link>
       </Div1>
