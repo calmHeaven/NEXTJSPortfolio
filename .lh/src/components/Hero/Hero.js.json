@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/components/Hero/Hero.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1727919029169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727919037387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,32 @@\n+import React from \"react\";\n+\n+import {\n+  Section,\n+  SectionText,\n+  SectionTitle,\n+} from \"../../styles/GlobalComponents\";\n+import Button from \"../../styles/GlobalComponents/Button\";\n+import { LeftSection } from \"./HeroStyles\";\n+\n+const Hero = (props) => (\n+  <Section row nopadding>\n+    <LeftSection>\n+      <SectionTitle main center>\n+        Hi! I&apos;m Abenezer <br />\n+        Welcome to <br />\n+        My Personal Portfolio\n+      </SectionTitle>\n+      <SectionText>\n+        I&apos;m a backend engineer with experience working at startup companies and developing software in which I&apos;ve been engaged\n+        in the analysis of customer requirements and deployment of well crafted solutions. I&apos;m also passionate about learning  and engineering  that can solve real-world problems and bring value.\n+      </SectionText>\n+      <Button\n+        onClick={() => (window.location = \"https:www.linkedin.com/in/agt700\")}\n+      >\n+        Learn More\n+      </Button>\n+    </LeftSection>\n+  </Section>\n+);\n+\n+export default Hero;\n"
+                }
+            ],
+            "date": 1727919029169,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\n\nimport {\n  Section,\n  SectionText,\n  SectionTitle,\n} from \"../../styles/GlobalComponents\";\nimport Button from \"../../styles/GlobalComponents/Button\";\nimport { LeftSection } from \"./HeroStyles\";\n\nconst Hero = (props) => (\n  <Section row nopadding>\n    <LeftSection>\n      <SectionTitle main center>\n        Hi! I'm Abenezer <br />\n        Welcome to <br />\n        My Personal Portfolio\n      </SectionTitle>\n      <SectionText>\n        I&apos;m a backend engineer with experience working at startup companies and developing software in which I've been engaged\n        in the analysis of customer requirements and deployment of well crafted solutions. I'm also passionate about learning  and engineering  that can solve real-world problems and bring value.\n      </SectionText>\n      <Button\n        onClick={() => (window.location = \"https:www.linkedin.com/in/agt700\")}\n      >\n        Learn More\n      </Button>\n    </LeftSection>\n  </Section>\n);\n\nexport default Hero;\n"
+        }
+    ]
+}

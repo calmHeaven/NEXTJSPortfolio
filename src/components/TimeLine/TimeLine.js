@@ -63,7 +63,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About me</SectionTitle>
       <SectionText>
-        I'm Junior Computer Science student at the University of Winnipeg with a
+        I am Junior Computer Science student at the University of Winnipeg with a
         hunger to learn and become better than I was the previous day.
       </SectionText>
 
