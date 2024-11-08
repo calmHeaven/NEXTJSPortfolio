@@ -34,7 +34,8 @@ const Technologies = () => (
             Experience with <br />
             React.js <br />
             Next.js <br /> 
-            TypeScript
+            TypeScript <br />
+            JavaScript
           </ListParagraph>
         </ListContainer>
       </ListItem>
