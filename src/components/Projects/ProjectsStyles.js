@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
   width:100%;
-  height:100%;
+  height:25%;
+  max-height: 250px;
   object-fit: cover;
   overflow: hidden;
 `
@@ -25,7 +26,7 @@ row-gap: 3rem;
 export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
-  text-align: center;
+  text-align: left;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
@@ -70,7 +71,7 @@ export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
   color: #e4e6e7;
-  font-style: 2rem;
+  //font-style: 2rem;
   line-height: 24px;
   text-align: left;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -84,7 +85,7 @@ export const UtilityList = styled.ul`
   list-style-type: none;
   padding: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin: 2.5rem 0;
 `;
 
@@ -103,7 +104,7 @@ transition: 0.5s;
 
 export const TagList = styled.ul`
 display: flex;
-justify-content: space-around;
+justify-content: center;
 padding: 2rem;
 `
 export const Tag = styled.li`

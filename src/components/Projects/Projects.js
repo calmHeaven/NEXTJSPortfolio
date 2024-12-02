@@ -1,8 +1,10 @@
 import React from 'react';
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList,Img} from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
-
+import Image from 'next/image';
+// import image from '../Projects/image.png';
+// import Mono from '../Projects/spring-new.png';
 
 const Projects = () => (
   <Section  nopadding
@@ -11,31 +13,40 @@ const Projects = () => (
     <SectionTitle main>
       Projects</SectionTitle>
     <GridContainer>
-      {projects.map(({id,image, title, description, tags, source, visit})=>(
-        <BlogCard key={id}>
-          <Img src={('project.image')}/>
+      {projects.map((p,i)=>(
+        <BlogCard key={i}>
+          <Img src={p.image}
+                width={100+"%"}
+                height={300+"px"}
+
+                alt={p.title}/>
           <TitleContent>
             <HeaderThree title>
-              {title}
+              {p.title}
             </HeaderThree>
             <Hr/>
             <CardInfo>
-              {description}
+              {p.description}
             </CardInfo>
           </TitleContent>
           <div>
-            <TitleContent>Stack</TitleContent>
+              <br/>
+            <TitleContent >
+                Stack
+            </TitleContent>
+              <br/>
             <TagList>
-              {tags.map((tag, i) => (
+              {p.tags.map((tag, i) => (
                 <Tag key = {i}>{tag}</Tag>
               ))}
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={source}>Source</ExternalLinks>
+            <ExternalLinks href={p.source}>Source</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}
+    <br/>
     </GridContainer>
   </Section>
 );

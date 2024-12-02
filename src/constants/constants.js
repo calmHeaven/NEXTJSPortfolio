@@ -1,18 +1,18 @@
 
 export const projects = [
   {
-    id: 0,
-    image: '../components/Projects/image.png',
     title: ' Full Stack School Management System',
     description: "This is a Spring Boot project for managing school-related tasks such as student registration and management. The system allows users to register students, view student details, update student information, and delete student records. Additionally, the project includes features for teacher management.",
-      tags: ['SpringBoot','-Java', '-JavaScript','-HTML', '-Bootstrap CSS'],
+    image: 'https://i.imgur.com/Z1KLa13.png',
+      tags: ['SpringBoot','-JavaScript', '-Bootstrap CSS'],
     source: 'https://github.com/calmHeaven/SpringBootSchoolManagementSystem',
     // visit: 'https://google.com',
+    id: 0,
   },
   {
     title: ' Automated SMS Motivator',
     description: "Spring Boot program using the Twilio API to send motivational SMS messages whenever I procrastinate.",
-      image: '../components/Projects/spring-new.png',
+      image: 'https://i.imgur.com/vuzPqhx.png',
       tags: ['Spring Boot', '-Twilio API','-Thymeleaf'],
     source: 'https://github.com/calmHeaven/-Automated-SMS-Motivator-',
     // visit: 'https://google.com',
