@@ -20,6 +20,10 @@ export const projects = [
   },
 ];
 
+export const backend = ['Spring Boot', 'Node.js', 'Express.js', 'Java']
+export const frontend = ['NextJS','React', 'JavaScript', 'TypeScript', 'HTML', 'CSS']
+export const database = ['MSAccess', 'PostgreSQL']
+
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
 export const TimeLineData = [

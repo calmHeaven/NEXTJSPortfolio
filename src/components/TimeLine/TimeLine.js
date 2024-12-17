@@ -80,6 +80,7 @@ const Timeline = () => {
                 id={`carousel__item-${index}`}
                 active={activeItem}
                 onClick={(e) => handleClick(e, index)}
+
               >
                 <CarouselItemTitle>
                   {item.year}

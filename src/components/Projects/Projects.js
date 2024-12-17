@@ -3,8 +3,7 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 import Image from 'next/image';
-// import image from '../Projects/image.png';
-// import Mono from '../Projects/spring-new.png';
+
 
 const Projects = () => (
   <Section  nopadding

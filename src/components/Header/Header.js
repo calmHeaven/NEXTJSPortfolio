@@ -15,11 +15,14 @@ const Header = () =>  (
             marginRight:'14px'
           }}/>
           <br/>
-           <Span style={{fontSize:"2.7rem"}}>Abenezer.</Span>
+           <Span
+               style={{fontSize:"2.7rem",}}
+               className='font-bold'>
+               Abenezer.</Span>
         </a>
         </Link>
       </Div1>
-      <Div2>
+      <Div2 className="flex ml:auto">
         <li>
           <Link href="#projects">
             <NavLink>Projects</NavLink>
@@ -43,7 +46,6 @@ const Header = () =>  (
               <SocialIcons href="www.linkedin.com/in/agt700">
         <AiFillLinkedin size="3rem" />  
         </SocialIcons>
-      
       </Div3>
     </Container>
 );

@@ -34,9 +34,11 @@ export const Div1 = styled.div`
 export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+    flex: 1;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
+      justify-content: space-between;
+      grid-area: 2 / 2 / 3 / 5;
   }
 `;
 export const Div3 = styled.div`

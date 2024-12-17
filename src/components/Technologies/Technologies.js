@@ -3,7 +3,7 @@ import { DiFirebase, DiPostgresql, DiReact} from 'react-icons/di';
 import { SiNextdotjs, SiSpring, SiSpringboot } from "react-icons/si";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
-
+import {backend, frontend, database} from '../../constants/constants';
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
@@ -21,7 +21,9 @@ const Technologies = () => (
           <ListTitle>Backend</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Spring Boot <br />
+            {backend.map((p,i)=>(
+                <>{p} <br/></>
+            ))}
 
           </ListParagraph>
         </ListContainer>
@@ -32,10 +34,9 @@ const Technologies = () => (
           <ListTitle>Frontend</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js <br />
-            Next.js <br /> 
-            TypeScript <br />
-            JavaScript
+            {frontend.map((p,i)=>(
+                <>{p} <br/></>
+            ))}
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -45,8 +46,9 @@ const Technologies = () => (
           <ListTitle>Database</ListTitle>
           <ListParagraph>
             Experience with <br />
-            PostgreSQL <br/>
-            MSAccess <br/>
+            {database.map((p,i)=>(
+                <>{p} <br/></>
+            ))}
           </ListParagraph>
         </ListContainer>
       </ListItem>
