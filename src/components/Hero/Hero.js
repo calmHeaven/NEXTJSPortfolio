@@ -21,7 +21,7 @@ const Hero = (props) => (
         in the analysis of customer requirements and deployment of well crafted solutions. I&apos;m also passionate about learning  and engineering  that can solve real-world problems and bring value.
       </SectionText>
       <Button
-        onClick={() => (window.location = "https://pdfhost.io/edit?doc=62fabc29-82a7-4a30-a4a9-1662c475d99a")}
+        onClick={() => (window.location = "https://pdfhost.io/edit?doc=017f8036-27c9-48b0-a6eb-3151404c22e2")}
       >
         Learn More
       </Button>
