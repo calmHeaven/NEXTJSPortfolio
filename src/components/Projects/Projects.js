@@ -11,14 +11,15 @@ const Projects = () => (
     <SectionDivider />
     <SectionTitle main>
       Projects</SectionTitle>
-    <GridContainer>
+    <GridContainer className="rounded-3xl">
       {projects.map((p,i)=>(
-        <BlogCard key={i}>
+        <BlogCard key={i} >
           <Img src={p.image}
                 width={100+"%"}
                 height={300+"px"}
-
-                alt={p.title}/>
+                alt={p.title}
+               className="rounded-3xl"
+          />
           <TitleContent>
             <HeaderThree title>
               {p.title}
@@ -40,9 +41,13 @@ const Projects = () => (
               ))}
             </TagList>
           </div>
-          <UtilityList>
-            <ExternalLinks href={p.source}>Source</ExternalLinks>
-          </UtilityList>
+            <UtilityList>
+                {p.visit === null ? (
+                    <ExternalLinks href={p.source}>Source</ExternalLinks>
+                ) : (
+                    <ExternalLinks href={p.visit}>Visit</ExternalLinks>
+                )}
+            </UtilityList>
         </BlogCard>
       ))}
     <br/>
