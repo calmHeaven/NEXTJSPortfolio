@@ -30,7 +30,7 @@ export const projects = [
 
 export const backend = ['Spring Boot', 'Node.js', 'Express.js', 'Java'];
 export const frontend = ['Next.js','React.js', 'TypeScript', 'HTML/CSS/JS'];
-export const database = ['MSAccess', 'PostgreSQL'];
+export const database = ['MSAccess', 'PostgreSQL', 'Redis'];
 export const tools = ['AWS', 'Azure', 'Git','Docker', 'Postman'];
 
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -42,12 +42,6 @@ export const TimeLineData = [
   {month:months[4-1], year: 2024, text: 'Built My First Full Stack Application'},
   {month:months[5-1], year:2024, text:'Software Development Intern at PolySense Solutions'},
   {month:months[9-1], year: 2024, text: 'Began Evolving in my skills as a developer and a mentor.' },
-  {month:months[10-1], year: 2024, text: 'Involved in the development of an open source PWA for a non-profit' }
-];
-
-export const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', },
+  {month:months[10-1], year: 2024, text: 'Involved in the development of an open source PWA for a non-profit.' },
+  {month:months[4-1], year: 2025, text: 'Implemented a Secure API Gateway using Spring Boot, Redis, KeyCloak.' }
 ];
