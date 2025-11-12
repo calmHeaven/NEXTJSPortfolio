@@ -33,7 +33,7 @@ export const CarouselContainer = styled.ul`
   }
 `
 export const CarouselMobileScrollNode = styled.div`
-  @media ${props => props.theme.breakpoints.sm} {
+  @media ${props => props.theme} {
     display: flex;
     min-width: ${({ final }) => final ? `120%;` : `min-content`}
   }
