@@ -23,7 +23,7 @@ export const CarouselContainer = styled.ul`
      display: none;
    }
 
-  @media ${props => props.theme.breakpoints.sm} {
+  @media ${props => props.theme} {
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
     scroll-snap-type: x mandatory;
@@ -44,11 +44,11 @@ export const CarouselItem = styled.div`
   border-radius: 3px;
   max-width: 196px;
 
-  @media ${props => props.theme.breakpoints.md} {
+  @media ${props => props.theme} {
     max-width: 124px;
   }
   
-  @media ${props => props.theme.breakpoints.sm} {
+  @media ${props => props.theme} {
     margin-left: 32px;
     min-width: 120px;
     background: #0F1624;
@@ -76,13 +76,13 @@ export const CarouselItemTitle = styled.h4`
   -webkit-text-fill-color: transparent;
   margin-bottom: 8px;
 
-  @media ${props => props.theme.breakpoints.md} {
+  @media ${props => props.theme} {
     font-size: 20px;
     line-height: 28px;
     margin-bottom: 4px;
   }
   
-  @media ${props => props.theme.breakpoints.sm} {
+  @media ${props => props.theme} {
     font-size: 16px;
     line-height: 24px;
   }
@@ -106,12 +106,12 @@ export const CarouselItemText = styled.p`
   color: rgba(255, 255, 255, 0.75);
   padding-right: 16px;
 
-  @media ${props => props.theme.breakpoints.md} {
+  @media ${props => props.theme} {
     font-size: 12px;
     line-height: 18px;
     padding-right: 32px;
   }
-  @media ${props => props.theme.breakpoints.sm} {
+  @media ${props => props.theme} {
     font-size: 10px;
     line-height: 16px;
     padding-right: 0;
@@ -123,7 +123,7 @@ export const CarouselButtons = styled.div`
   display: none;
   visibility: hidden;
 
-  @media ${props => props.theme.breakpoints.sm} {
+  @media ${props => props.theme} {
     display: flex;
     visibility: visible;
     margin-bottom: 48px;
