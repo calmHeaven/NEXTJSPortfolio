@@ -42,11 +42,7 @@ export const CarouselMobileScrollNode = styled.div`
 export const CarouselItem = styled.div`
   background: #0F1624;
   border-radius: 3px;
-  max-width: 196px;
-
-  @media ${props => props.theme} {
-    max-width: 124px;
-  }
+  max-width: 124px;
   
   @media ${props => props.theme} {
     margin-left: 32px;
@@ -120,14 +116,11 @@ export const CarouselItemText = styled.p`
 export const CarouselButtons = styled.div`
   width: 288px;
 
-  display: none;
   visibility: hidden;
 
-  @media ${props => props.theme} {
     display: flex;
     visibility: visible;
     margin-bottom: 48px;
-  }
 `
 
 export const CarouselButton = styled.button`
