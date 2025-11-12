@@ -20,7 +20,7 @@ const Hero = (props) => (
         👋 Hi, I&apos;m Abenezer — a backend engineer with startup experience, passionate about building scalable systems and crafting solutions that make a real-world impact. I love turning ideas into reliable software that brings lasting value.
       </SectionText>
       <Button
-        onClick={() => (window.location = "https://pdfhost.io/edit?doc=52ef4d34-baf2-49ef-98eb-7c74461ee66c")}
+        onClick={() => (window.location = "https://pdfhost.io/v/MBBZRyy6AW_Abenezer_Resume_2025-26_AT_NEW")}
       >
         Learn More
       </Button>
