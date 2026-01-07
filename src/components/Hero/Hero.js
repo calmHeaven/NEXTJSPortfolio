@@ -17,11 +17,10 @@ const Hero = (props) => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        I&apos;m a backend engineer with experience working at startup companies and developing software in which I&apos;ve been engaged
-        in the analysis of customer requirements and deployment of well crafted solutions. I&apos;m also passionate about learning  and engineering  that can solve real-world problems and bring value.
+        👋 Hi, I&apos;m Abenezer — a backend engineer with startup experience, passionate about building scalable systems and crafting solutions that make a real-world impact. I love turning ideas into reliable software that brings lasting value.
       </SectionText>
       <Button
-        onClick={() => (window.location = "https://pdfhost.io/edit?doc=52ef4d34-baf2-49ef-98eb-7c74461ee66c")}
+        onClick={() => (window.location = "https://pdfhost.io/v/MBBZRyy6AW_Abenezer_Resume_2025-26_AT_NEW")}
       >
         Learn More
       </Button>

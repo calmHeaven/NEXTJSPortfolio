@@ -19,7 +19,7 @@ import {
 } from "../../styles/GlobalComponents";
 import { TimeLineData } from "../../constants/constants";
 
-const TOTAL_CAROUSEL_COUNT = TimeLineData.length-2;
+const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
   const [activeItem, setActiveItem] = useState(0);
@@ -33,9 +33,8 @@ const Timeline = () => {
     e.preventDefault();
 
     if (carouselRef.current) {
-      const scrollLeft = Math.floor(
-        carouselRef.current.scrollWidth * 0.8 * (i / TimeLineData.length-1)
-      );
+      const itemWidth = carouselRef.current.scrollWidth / TimeLineData.length;
+      const scrollLeft = Math.floor(itemWidth * i);
 
       scroll(carouselRef.current, scrollLeft);
     }
@@ -43,7 +42,8 @@ const Timeline = () => {
 
   const handleScroll = () => {
     if (carouselRef.current) {
-      const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.8)) * TimeLineData.length);
+      const itemWidth = carouselRef.current.scrollWidth / TimeLineData.length;
+      const index = Math.round(carouselRef.current.scrollLeft / itemWidth);
 
       setActiveItem(index);
     }
@@ -53,7 +53,7 @@ const Timeline = () => {
   // avoids a bug where content is covered up if coming from smaller screen
   useEffect(() => {
     const handleResize = () => {
-      scroll(carouselRef.current, 1);
+      scroll(carouselRef.current, 0);
     }
 
     window.addEventListener('resize', handleResize);
@@ -73,7 +73,7 @@ const Timeline = () => {
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
               key={index}
-              final={index === TOTAL_CAROUSEL_COUNT+1}
+              final={index === TOTAL_CAROUSEL_COUNT - 1}
             >
               <CarouselItem
                 index={index}

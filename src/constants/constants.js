@@ -44,5 +44,7 @@ export const TimeLineData = [
   {month:months[6-1], year:2024, text:'Started building StayOnTrack'},
   {month:months[9-1], year: 2024, text: 'Began Evolving in my skills as a developer and a mentor.' },
   {month:months[10-1], year: 2024, text: 'Involved in the development of an open source PWA for a non-profit.' },
-  {month:months[4-1], year: 2025, text: 'Implemented a Secure API Gateway using Spring Boot, Redis, KeyCloak.' }
+  {month:months[4-1], year: 2025, text: 'Implemented a Secure API Gateway using Spring Boot, Redis, KeyCloak.' },
+  {month:months[5-1], year: 2025, text: 'Software Developer Inter at IMT'}
+
 ];
